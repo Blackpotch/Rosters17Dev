@@ -1,0 +1,3 @@
+This is the first increment of the Rosters Developent for 2017.
+This file has carried over from the old Rosters Spreadsheet we have
+been using to since I created the spreadsheet circa 2001 - 2002
