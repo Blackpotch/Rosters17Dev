@@ -1,3 +1,18 @@
-This is the first increment of the Rosters Developent for 2017.
-This file has carried over from the old Rosters Spreadsheet we have
-been using to since I created the spreadsheet circa 2001 - 2002
+16/02/2017****************************************************************************
+
+Add fictional names to the data sheet to force the macro to show all the lines in the 
+roster sheet.
+
+Changed the startfromscratch attribute in RibbonUi to false so as to enable the excel
+commands. Also the toggle button on the RibbonUi now displays a label of PDO rather
+than RDO
+
+Replaced RO in the datasheet with PO. We have been confusing Rostered Days off with
+Paid Days off.
+Modified the Subs "GetTglMarkPressed(control As IRibbonControl, ByRef returnedVal)"
+and "ChangeAutoMark(control As IRibbonControl, pressed As Boolean)" in vba module 
+mdlRibbon and "SetAutoMark()" in module shtRoster so that automark will now display 
+PO rather than RO
+
+Modify the Caption property of the optRDO option control on the sheet to diplay PDO
+rather than RDO
