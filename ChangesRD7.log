@@ -1,0 +1,23 @@
+16/02/2017****************************************************************************
+
+Add fictional names to the data sheet to force the macro to show all the lines in the 
+roster sheet.
+
+Change the startfromscratch attribute in RibbonUi to false so as to enable the excel
+commands. Also the toggle button on the RibbonUi now displays a label of PDO rather
+than RDO.
+
+Replace RO in the datasheet with PO. We have been confusing Rostered Days off with
+Paid Days off.
+Modified the Subs "GetTglMarkPressed(control As IRibbonControl, ByRef returnedVal)"
+and "ChangeAutoMark(control As IRibbonControl, pressed As Boolean)" in vba module 
+mdlRibbon and "SetAutoMark()" in module shtRoster so that automark will now display 
+PO rather than RO.
+
+Modify the Caption property of the optRDO option control on the sheet to diplay PDO
+rather than RDO.
+
+17/02/2017****************************************************************************
+
+Modify the formula in the Summary Sheet so that it counts PO rather than RO on the 
+Rosters sheet. Also change the heading on the Summary Sheet to show PDO rather than RDO.
