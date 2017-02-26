@@ -30,4 +30,8 @@ Also a . is needed in place of a blank for days that are rostered off unpaid RO.
 So have changed the shifts range in the data sheet to show and X in place of RO. This is
 the range the dropdown boxes for the cells in the roster sheet uses.
 Added a couple of rows above the rosters in the roster sheet. This needs to be tested.
-The reason for this is to add a legend to the top of the rosters sheet.
+Add a legend to the top of the rosters sheet.
+
+Add an option box optRosteredOff to the sheet controls and modify the VBA to have the
+automark feature work. Modify the formulas on the RDO column of the summary sheet to count
+X rather than PO.
