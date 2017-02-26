@@ -21,3 +21,13 @@ rather than RDO.
 
 Modify the formula in the Summary Sheet so that it counts PO rather than RO on the 
 Rosters sheet. Also change the heading on the Summary Sheet to show PDO rather than RDO.
+
+26/02/2017****************************************************************************
+
+Changes to PDO need to be made once again. This time an X is required rather than PO.
+Also a . is needed in place of a blank for days that are rostered off unpaid RO.
+
+So have changed the shifts range in the data sheet to show and X in place of RO. This is
+the range the dropdown boxes for the cells in the roster sheet uses.
+Added a couple of rows above the rosters in the roster sheet. This needs to be tested.
+The reason for this is to add a legend to the top of the rosters sheet.
