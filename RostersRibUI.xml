@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="InitRibbon">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="oddTab" label="OODLA WIRRA ROSTER">
+        <group id="grpSettings" label="Settings" getVisible="SetVisibleBonGroups">
+          <comboBox id="cboYearEnding" label="Year Ending" onChange="RibbonYearsComboChange" getText="GetRibbonYearsComboText">
+            <item id="itYr2016" label="2016" />
+            <item id="itYr2017" label="2017" />
+            <item id="itYr2018" label="2018" />
+            <item id="itYr2019" label="2019" />
+            <item id="itYr2020" label="2020" />
+            <item id="itYr2021" label="2021" />
+            <item id="itYr2022" label="2022" />
+          </comboBox>
+          <checkBox id="chkToggleSheetControls" onAction="ToggleSheetControls" getPressed="GetChkTogShtCntrlPressed" label="Display Sheet Controls"></checkBox>
+          <checkBox id="chkToggleLegend" onAction="ToggleLegend" getPressed="GetChkTogLegendPressed" label="Display Legend" />
+        </group>
+        <group id="grpAutomark" label="Automark" getVisible="SetVisibleBonGroups">
+          <checkBox label="Use Automark" id="chkAutomark" getPressed="MarkChange" onAction="ToggleAutoMark" />
+          <separator id="sepSettings" />
+          <buttonGroup id="grpAutomark1">
+            <toggleButton id="tglClear" label="Clear" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" screentip="&quot;Clear&quot;" getEnabled="GetEnabled" />
+            <toggleButton id="tglNight" label="Night" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+            <toggleButton id="tglDay" label="Day" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+            <toggleButton id="tglAfternoon" label="Afternoon" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+            <toggleButton id="tglHeat" label="Heat" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+          </buttonGroup>
+          <buttonGroup id="grpAutomark2">
+            <toggleButton id="tglRosteredOff" label="PDO" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+            <toggleButton id="tglSickLeave" label="Sick Leave" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+            <toggleButton id="tglAnnualLeave" label="Annual Leave" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+          </buttonGroup>
+          <buttonGroup id="grpAutomark3">
+            <toggleButton id="tglNotAvailable" label="Not Available" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+            <toggleButton id="tglSpecial" label="Special" getPressed="GetTglMarkPressed" onAction="ChangeAutoMark" getEnabled="GetEnabled" />
+          </buttonGroup>
+        </group>
+        <group id="grpNavigation" label="Navigation">
+          <button id="btnRoster" label="Roster" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnSummary" label="Summary" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp01" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp02" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp03" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp04" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp05" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp06" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp07" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp08" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp09" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp10" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp11" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+          <button id="btnEmp12" getLabel="InitButtonLabel" getVisible="InitNavButton" onAction="NavButtonAction" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+  <backstage>
+    <button idMso="FileSave" visible="false" />
+    <button idMso="FileClose" visible="false" />
+    <button idMso="ApplicationOptionsDialog" visible="false" />
+    <tab idMso="TabInfo" visible="false" />
+    <tab idMso="TabRecent" visible="false" />
+    <tab idMso="TabPrint" visible="true" />
+    <tab idMso="TabShare" visible="false" />
+    <tab idMso="TabHelp" visible="false" />
+    <tab idMso="TabPublish" visible="false" />
+    <tab idMso="TabSave" visible="false" />
+    <tab idMso="TabOfficeStart" visible="false" />
+  </backstage>
+</customUI>

@@ -35,3 +35,6 @@ Add a legend to the top of the rosters sheet.
 Add an option box optRosteredOff to the sheet controls and modify the VBA to have the
 automark feature work. Modify the formulas on the RDO column of the summary sheet to count
 X rather than PO.
+
+17/04/17*******************************************************************************
+Add check box to the ribbonUI to show/hide the Legend and Test
