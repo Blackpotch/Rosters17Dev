@@ -38,3 +38,10 @@ X rather than PO.
 
 17/04/17*******************************************************************************
 Add check box to the ribbonUI to show/hide the Legend and Test
+
+24/04/17*******************************************************************************
+The RibbonUI checkboxes for Legend and Sheet controls were not behaving correctly in that 
+they were showing checked when no controls were visible when coming from another sheet.
+Modified the functions to solve.
+The workbook_open function was setting the flags incorrectly for the same checkboxes mentioned
+above. This function has been fixed.
