@@ -45,3 +45,7 @@ they were showing checked when no controls were visible when coming from another
 Modified the functions to solve.
 The workbook_open function was setting the flags incorrectly for the same checkboxes mentioned
 above. This function has been fixed.
+
+17/05/17*******************************************************************************
+Changed the heading in the summary sheet from RDO to PDO
+Added comments to the subroutine with fires add and remove employees names in the roster sheet 
