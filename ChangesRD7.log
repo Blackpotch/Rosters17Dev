@@ -47,5 +47,10 @@ The workbook_open function was setting the flags incorrectly for the same checkb
 above. This function has been fixed.
 
 17/05/17*******************************************************************************
-Changed the heading in the summary sheet from RDO to PDO
-Added comments to the subroutine with fires add and remove employees names in the roster sheet 
+Change the heading in the summary sheet from RDO to PDO
+Add comments to the subroutine with fires add and remove employees names in the roster sheet 
+
+4/07/17********************************************************************************
+Modify the clear option in Automark to leave a "." rather than clear
+Change the conditional formatting to suit the new roster codes
+Change the ribbon to only show the roster tab

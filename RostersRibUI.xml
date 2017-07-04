@@ -57,7 +57,7 @@
   </ribbon>
   <backstage>
     <button idMso="FileSave" visible="false" />
-    <button idMso="FileClose" visible="false" />
+    <button idMso="FileClose" visible="true" />
     <button idMso="ApplicationOptionsDialog" visible="false" />
     <tab idMso="TabInfo" visible="false" />
     <tab idMso="TabRecent" visible="false" />
@@ -65,7 +65,7 @@
     <tab idMso="TabShare" visible="false" />
     <tab idMso="TabHelp" visible="false" />
     <tab idMso="TabPublish" visible="false" />
-    <tab idMso="TabSave" visible="false" />
+    <tab idMso="TabSave" visible="true" />
     <tab idMso="TabOfficeStart" visible="false" />
   </backstage>
 </customUI>
