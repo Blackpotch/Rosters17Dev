@@ -54,3 +54,11 @@ Add comments to the subroutine with fires add and remove employees names in the 
 Modify the clear option in Automark to leave a "." rather than clear
 Change the conditional formatting to suit the new roster codes
 Change the ribbon to only show the roster tab
+
+2/12/18********************************************************************************
+I need to add a feature to highlight the Period Ending days. These can only be on a Friday.
+Therefore I'm considering a dropdown option with a couple of Friday dates early in July and a new Range. So...
+* Edit the ribbon XML to allow access to the Excel menus
+* Fix the formula problem on the summary sheet where Emp7's SP shifts were adding emp6's SP shifts instead
+* Begin editing the RosersRibUI XML file
+* Commit

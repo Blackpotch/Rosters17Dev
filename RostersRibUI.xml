@@ -15,6 +15,7 @@
           </comboBox>
           <checkBox id="chkToggleSheetControls" onAction="ToggleSheetControls" getPressed="GetChkTogShtCntrlPressed" label="Display Sheet Controls"></checkBox>
           <checkBox id="chkToggleLegend" onAction="ToggleLegend" getPressed="GetChkTogLegendPressed" label="Display Legend" />
+          <comboBox id="cboPeriodEnding" label="First Period Ending:" getItemLabel="GetPeriodsEnding" onChange="SetPeriodEnding" getItemCount="GetPeriodEndingItemCount" />
         </group>
         <group id="grpAutomark" label="Automark" getVisible="SetVisibleBonGroups">
           <checkBox label="Use Automark" id="chkAutomark" getPressed="MarkChange" onAction="ToggleAutoMark" />
