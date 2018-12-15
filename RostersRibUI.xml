@@ -13,9 +13,10 @@
             <item id="itYr2021" label="2021" />
             <item id="itYr2022" label="2022" />
           </comboBox>
+          <dropDown id="drpPE" label="First Period Ending:" onAction="drpPE_SetPeriodEnding" getItemLabel="drpPE_GetPeriodsEnding" getItemCount="drpPE_GetPeriodEndingItemCount" getItemID="drpPE_GetItemId" getSelectedItemID="drpPE_GetSelectedItemId" />
+          <separator id="sepPeriodEnding" />
           <checkBox id="chkToggleSheetControls" onAction="ToggleSheetControls" getPressed="GetChkTogShtCntrlPressed" label="Display Sheet Controls"></checkBox>
           <checkBox id="chkToggleLegend" onAction="ToggleLegend" getPressed="GetChkTogLegendPressed" label="Display Legend" />
-          <comboBox id="cboPeriodEnding" label="First Period Ending:" getItemLabel="GetPeriodsEnding" onChange="SetPeriodEnding" getItemCount="GetPeriodEndingItemCount" />
         </group>
         <group id="grpAutomark" label="Automark" getVisible="SetVisibleBonGroups">
           <checkBox label="Use Automark" id="chkAutomark" getPressed="MarkChange" onAction="ToggleAutoMark" />
