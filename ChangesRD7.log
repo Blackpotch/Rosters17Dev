@@ -60,5 +60,9 @@ I need to add a feature to highlight the Period Ending days. These can only be o
 Therefore I'm considering a dropdown option with a couple of Friday dates early in July and a new Range. So...
 * Edit the ribbon XML to allow access to the Excel menus
 * Fix the formula problem on the summary sheet where Emp7's SP shifts were adding emp6's SP shifts instead
-* Begin editing the RosersRibUI XML file
+* Begin editing the RostersRibUI XML file
+* Commit
+* Complete adding the dropdown XML in the RostersRibUI file
+* Add the VBA callbacks 
+* Add the VBA to populate the dropdown with the Period Ending Dates
 * Commit
