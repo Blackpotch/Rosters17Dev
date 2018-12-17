@@ -66,3 +66,7 @@ Therefore I'm considering a dropdown option with a couple of Friday dates early 
 * Add the VBA callbacks 
 * Add the VBA to populate the dropdown with the Period Ending Dates
 * Commit
+* Add the list of Period Endings to the data sheet
+* Note: a bug has appeared not putting the value in the data range from the
+  dropdown. Looks like some debugging to do
+* Commit
