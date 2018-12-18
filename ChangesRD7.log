@@ -66,7 +66,13 @@ Therefore I'm considering a dropdown option with a couple of Friday dates early 
 * Add the VBA callbacks 
 * Add the VBA to populate the dropdown with the Period Ending Dates
 * Commit
+* 17/12/18
 * Add the list of Period Endings to the data sheet
 * Note: a bug has appeared not putting the value in the data range from the
   dropdown. Looks like some debugging to do
+* Commit
+* 18/12/18
+* Debug the the value transfer, the date was changing format from dd/mm/yyy to mm/dd/yyy
+* By using the the text "Jul" in the date the was sorted
+* Invalidate the control whenever the Year Ending is changed
 * Commit
