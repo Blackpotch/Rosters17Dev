@@ -76,3 +76,5 @@ Therefore I'm considering a dropdown option with a couple of Friday dates early 
 * By using the the text "Jul" in the date the was sorted
 * Invalidate the control whenever the Year Ending is changed
 * Commit
+* Code the two sub routines to highlight the Periods Ending
+* Commit
