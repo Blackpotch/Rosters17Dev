@@ -78,3 +78,16 @@ Therefore I'm considering a dropdown option with a couple of Friday dates early 
 * Commit
 * Code the two sub routines to highlight the Periods Ending
 * Commit
+********************************************************************************************
+7/2/19
+New mods required!
+With the possible implementation of fines at the Quarantine Station it is possibe we will require 
+extra staff. The Roster Application needs to be modified to accomodate a potential 28 staff.
+The required changes will be as follows:
+	** 	Add the rows and named ranges in the data sheet to accomodate for 28 staff
+
+********************************************************************************************
+7/2/19
+Modify the data sheet to hold upto 28 employees including:
+	* Add the named ranges for Surname and Given name.
+	* Copy and modify the formulas which create the initials
