@@ -91,3 +91,9 @@ The required changes will be as follows:
 Modify the data sheet to hold upto 28 employees including:
 	* Add the named ranges for Surname and Given name.
 	* Copy and modify the formulas which create the initials
+
+24/2/19
+Insert addional rows in the Roster sheet to accomodate the extra employees which
+have been added to the data sheet.
+Format the rows and add the respective formulas and named ranges
+
