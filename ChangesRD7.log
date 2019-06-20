@@ -112,3 +112,7 @@ Do the same for April, May and June
 
 5/6/19
 Add formulas to the new rows in the Summary Sheet and fix any old ones as required
+
+20/5/19
+Modify the LYear() and NYear() subs that change the roster to accomodate for
+Leap year and non leap year on the Rosters Sheet code module.
