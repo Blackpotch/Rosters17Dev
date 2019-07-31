@@ -116,3 +116,9 @@ Add formulas to the new rows in the Summary Sheet and fix any old ones as requir
 20/5/19
 Modify the LYear() and NYear() subs that change the roster to accomodate for
 Leap year and non leap year on the Rosters Sheet code module.
+
+31/7/19
+Going off at a tangent:
+Add the colums for public holidays in the data sheet
+Name the ranges of the new colums
+Begin the routines to highlight the public holidays in the rosters sheet
