@@ -122,3 +122,6 @@ Going off at a tangent:
 Add the colums for public holidays in the data sheet
 Name the ranges of the new colums
 Begin the routines to highlight the public holidays in the rosters sheet
+
+2/8/19
+Code theSetPublicHolidayColours() Subroutine
