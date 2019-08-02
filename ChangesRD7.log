@@ -124,4 +124,7 @@ Name the ranges of the new colums
 Begin the routines to highlight the public holidays in the rosters sheet
 
 2/8/19
-Code theSetPublicHolidayColours() Subroutine
+* Code the SetPublicHolidayColours() Subroutine
+* Code the ShowActiveEmpLines() Subroutine
+* Put these on the Sheet_Deactivate event of the data sheet
+* Prepare roster for 2019/20 season
