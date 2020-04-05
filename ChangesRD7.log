@@ -136,3 +136,4 @@ Begin the routines to highlight the public holidays in the rosters sheet
 5/4/20
 * Remove the old Ribbon combo box for the Years or year ending and replace with
   with a dynamically populated dropdown box
+* Update the Roster Legend
