@@ -4,15 +4,7 @@
     <tabs>
       <tab id="oddTab" label="OODLA WIRRA ROSTER">
         <group id="grpSettings" label="Settings" getVisible="SetVisibleBonGroups">
-          <comboBox id="cboYearEnding" label="Year Ending" onChange="RibbonYearsComboChange" getText="GetRibbonYearsComboText">
-            <item id="itYr2016" label="2016" />
-            <item id="itYr2017" label="2017" />
-            <item id="itYr2018" label="2018" />
-            <item id="itYr2019" label="2019" />
-            <item id="itYr2020" label="2020" />
-            <item id="itYr2021" label="2021" />
-            <item id="itYr2022" label="2022" />
-          </comboBox>
+          <dropDown id="ddYearEnding" getItemCount="ddYEGetItemCount" getItemLabel="ddYEGetItemLabel" getItemID="ddYEGetItemID" label="Year Ending" onAction="ddYESetYearEnding" getSelectedItemID="ddYEGetSelectedItemID" />
           <dropDown id="drpPE" label="First Period Ending:" onAction="drpPE_SetPeriodEnding" getItemLabel="drpPE_GetPeriodsEnding" getItemCount="drpPE_GetPeriodEndingItemCount" getItemID="drpPE_GetItemId" getSelectedItemID="drpPE_GetSelectedItemId" />
           <separator id="sepPeriodEnding" />
           <checkBox id="chkToggleSheetControls" onAction="ToggleSheetControls" getPressed="GetChkTogShtCntrlPressed" label="Display Sheet Controls"></checkBox>

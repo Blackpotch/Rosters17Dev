@@ -132,3 +132,7 @@ Begin the routines to highlight the public holidays in the rosters sheet
 27/3/20
 * Remove rogue dropdowns and protect Roster sheet cells
 * Add the "DD" range and replace the old "D" range to take in all the new emp lines
+
+5/4/20
+* Remove the old Ribbon combo box for the Years or year ending and replace with
+  with a dynamically populated dropdown box
