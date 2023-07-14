@@ -137,3 +137,8 @@ Begin the routines to highlight the public holidays in the rosters sheet
 * Remove the old Ribbon combo box for the Years or year ending and replace with
   with a dynamically populated dropdown box
 * Update the Roster Legend
+
+14/7/23
+* Modify the SetPublicHoldiayColours() and ClearPublicHoldayColours() sub routines
+* to now add comments to the holiday colours to tell what holiday it is.
+* Modify the routine that centres the summary sheet
